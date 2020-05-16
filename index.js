@@ -17,7 +17,7 @@ const btnClick = (event) => {
 </div>
 <div class="task">
   Nakoupit na víkend
-</div><div>${newTask}</div>`;
+</div><div class="task">${newTask()}</div>`;
 }
 
 button.addEventListener('click', btnClick);
