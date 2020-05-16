@@ -20,3 +20,4 @@ const btnClick = (event) => {
 </div><div>${newTask}</div>`;
 }
 
+button.addEventListener('click', btnClick);
