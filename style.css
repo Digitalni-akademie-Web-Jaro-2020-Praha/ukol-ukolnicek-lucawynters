@@ -1,11 +1,11 @@
-@import url('https://fonts.googleapis.com/css?family=Roboto:400,700,900&display=swap&subset=latin-ext');
+@import url("https://fonts.googleapis.com/css?family=Roboto:400,700,900&display=swap&subset=latin-ext");
 
 * {
   box-sizing: border-box;
 }
 
 html {
-  font-family: 'Roboto', sans-serif;
+  font-family: "Roboto", sans-serif;
   font-size: 15px;
 }
 
@@ -87,4 +87,11 @@ body {
 
 .task {
   padding: 1rem 2rem;
+}
+
+.todo__tasks {
+  list-style-type: none;
+  padding: 5px;
+  margin-left: 30px;
+  line-height: 35px;
 }
