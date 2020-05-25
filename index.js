@@ -3,9 +3,6 @@
 console.log('funguju!');
 
 const todoList = [
-  'Vyprat ponožky',
-  'Naučit se funkce vyššího řádu',
-  'Nakoupit na víkend',
 ];
 
 const updateTasks = () => {
@@ -20,10 +17,9 @@ const button = document.querySelector('button');
 const tasks = document.querySelector('input');
 
 const btnClick = (event) => {
-
   todoList.push(tasks.value)
   updateTasks()
   tasks.value = tasks.defaultValue;
-}
+};
 
 button.addEventListener('click', btnClick);
