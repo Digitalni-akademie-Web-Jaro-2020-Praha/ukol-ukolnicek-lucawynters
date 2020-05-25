@@ -10,7 +10,6 @@ const updateTasks = () => {
 const btnClick = (event) => {
   const todoList = document.querySelector('.todo__tasks');
   todoList.innerHTML += `<div class="task">${updateTasks()}</div`;
-  /*const tasks = document.querySelector('input');*/
   tasks.value = tasks.defaultValue;
 }
 
